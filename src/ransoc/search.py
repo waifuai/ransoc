@@ -1,6 +1,6 @@
 # search.py
 import numpy as np
-from .planet import Planet  # Import Planet from the current package
+from planet import Planet  # Import Planet from the current package
 
 def hit(planets, star, alpha=0.1):  # Add alpha as a parameter
     """
