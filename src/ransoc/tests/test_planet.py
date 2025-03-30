@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from planet import Planet
+from ransoc.planet import Planet
 
 class TestPlanet(unittest.TestCase):
 

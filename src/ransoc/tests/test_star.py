@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from star import Star
+from ransoc.star import Star
 
 class TestStar(unittest.TestCase):
 

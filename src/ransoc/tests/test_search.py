@@ -1,8 +1,8 @@
 import unittest
 import numpy as np
-from planet import Planet
-from star import Star
-from search import hit
+from ransoc.planet import Planet
+from ransoc.star import Star
+from ransoc.search import hit
 
 class TestSearch(unittest.TestCase):
 
