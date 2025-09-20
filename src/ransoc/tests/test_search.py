@@ -1,3 +1,11 @@
+"""
+Unit tests for the search functionality and RANSOC class.
+
+This module contains comprehensive unit tests for both the legacy search functionality
+and the new RANSOC class implementation. Tests cover backward compatibility,
+query processing, batch operations, statistics, different distance metrics,
+and various configuration options.
+"""
 import unittest
 import numpy as np
 import warnings

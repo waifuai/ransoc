@@ -1,3 +1,13 @@
+"""
+Visualization utilities for the RANSOC algorithm.
+
+This module provides comprehensive visualization capabilities for analyzing
+the RANSOC algorithm behavior, planet distributions, and query results.
+It includes static plotting functionality for understanding algorithm dynamics,
+mass distributions, hit patterns, and query analysis without requiring
+animation support.
+"""
+
 # visualization.py
 from typing import Optional, List, Tuple, Dict, Any
 import numpy as np

@@ -1,3 +1,12 @@
+"""
+RANSOC animation and visualization module.
+
+This module provides animated visualizations and interactive demonstrations
+of the RANSOC algorithm. It includes functionality for creating dynamic
+visualizations of algorithm behavior over time, showing how planet masses
+evolve, rankings change, and the exploration process unfolds through
+multiple queries.
+"""
 import numpy as np
 from dataclasses import dataclass, field
 from typing import List, Tuple, Optional, Dict

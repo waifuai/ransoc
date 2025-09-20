@@ -1,3 +1,11 @@
+"""
+Unit tests for the Planet class.
+
+This module contains comprehensive unit tests for the Planet class in the RANSOC
+algorithm, covering initialization, distance calculations, mass updates, weight
+calculations, and other core functionality. Tests ensure the Planet class
+behaves correctly under various conditions and edge cases.
+"""
 import unittest
 import numpy as np
 from ransoc.planet import Planet

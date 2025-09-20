@@ -1,3 +1,11 @@
+"""
+Unit tests for the Star class.
+
+This module contains comprehensive unit tests for the Star class in the RANSOC
+algorithm, covering initialization, query counting, distance calculations,
+metadata handling, and other core functionality. Tests ensure the Star class
+behaves correctly under various conditions and edge cases.
+"""
 import unittest
 import numpy as np
 from datetime import datetime

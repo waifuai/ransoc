@@ -1,3 +1,13 @@
+"""
+Star module for the RANSOC algorithm.
+
+This module defines the Star class, which represents queries in the RANSOC
+(Real-time Adaptive Normalization for the Satisfaction of Curiosity) algorithm.
+Each star has a position in n-dimensional space and represents a user query
+or search request. Stars can contain metadata about the query context and
+track query statistics over time.
+"""
+
 # star.py
 from typing import Union, List, Dict, Any, Optional
 import numpy as np

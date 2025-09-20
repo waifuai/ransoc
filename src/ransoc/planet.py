@@ -1,3 +1,13 @@
+"""
+Planet module for the RANSOC algorithm.
+
+This module defines the Planet class, which represents searchable items in the
+RANSOC (Real-time Adaptive Normalization for the Satisfaction of Curiosity)
+algorithm. Each planet has a position in n-dimensional space and a mass that
+influences its ranking in search results. The mass is dynamically adjusted
+to promote exploration of the search space.
+"""
+
 # planet.py
 from typing import Union, List, Dict, Any, Optional
 import numpy as np

@@ -1,3 +1,21 @@
+"""
+Core RANSOC algorithm implementation.
+
+This module contains the main RANSOC (Real-time Adaptive Normalization for the
+Satisfaction of Curiosity) algorithm class and supporting functionality. It includes:
+
+- RANSOC: The main algorithm class that implements the adaptive search algorithm
+- RANSOCConfig: Configuration class for algorithm parameters
+- QueryResult: Data structure for query results
+- DistanceMetric: Enumeration of supported distance metrics
+- DistanceCalculator: Utility class for distance calculations
+- Exception classes for error handling
+
+The algorithm balances relevance and exploration by dynamically adjusting
+the weights of search results based on user interactions, ensuring broader
+exploration of the search space while maintaining result relevance.
+"""
+
 # ransoc.py
 from typing import List, Dict, Any, Optional, Tuple, Union, Callable
 import numpy as np
